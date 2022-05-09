@@ -113,8 +113,9 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .audio-player{
@@ -136,10 +137,7 @@ img{
 }
 
 .song-duration{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    font-size: 1.2rem;
 }
 
 @keyframes animatedBackground {

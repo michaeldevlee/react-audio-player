@@ -29,9 +29,13 @@ const [nextIndex, setNextIndex] = useState(0);
 useEffect(() => {
   setNextIndex(() => {
     if (currentIndex + 1 > songs.length - 1) {
+      console.log("does not add")
       return 0;
+      
     } else {
+      console.log("changed song")
       return currentIndex + 1;
+
     }
   });
 }, [currentIndex]);

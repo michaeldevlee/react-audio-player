@@ -5,44 +5,47 @@ import {faPlay, faPause, faForward, faBackward, faStepForward, faStepBackward, f
 const Player = (props)=>{
 
     const {title, src} = props.song;
-    const audioElement = new Audio(src);
+    const audioElement = useRef(new Audio(src));
 
     const [duration, setDuration] = useState(0);
     const [current_time, set_current_time] = useState(0);
 
+
     useEffect(() => {
-     audioElement.addEventListener('loadedmetadata', (e) => {
-     setDuration(e.target.duration)
-    })},[audioElement]);
+        audioElement.current.pause();
+        audioElement.current = new Audio(src);
 
-    /* audioElement.addEventListener("timeupdate", function () {
-        let time = audioElement.currentTime;
-        set_current_time(time);
-        console.log(time);
+        audioElement.current.addEventListener('loadedmetadata', (e) => {
+            setDuration(e.target.duration);
+          });
+    },[props.currentIndex])
 
-        return audioElement.removeEventListener("timeupdate");
-      });
-    */
+    useEffect(()=>{
+        setInterval(()=>{
+            set_current_time(audioElement.current.currentTime);
+            console.log(audioElement.current.currentTime)
+        },1000)
+    },[]);
     
 
     const toggleMedia = ()=>{
-        if (audioElement.paused === true)
+        if (audioElement.current.paused === true)
         {
             console.log("playing")
-            audioElement.play()
+            audioElement.current.play()
         }
         else{
             console.log("pausing")
-            audioElement.pause()
+            audioElement.current.pause()
         }
     }
     
     const fastFoward = ()=>{
-        audioElement.currentTime += 5;
+        audioElement.current.currentTime += 5;
     }
 
     const fastBackward = ()=>{
-        audioElement.currentTime -= 5;
+        audioElement.current.currentTime -= 5;
     }
 
     const calculateTime = (secs) => {
@@ -55,17 +58,19 @@ const Player = (props)=>{
 
     const playNextSong = () =>{
         if (props.currentIndex < props.songs.length-1){
+            audioElement.current.pause();
+            audioElement.current.currentTime = 0;
             props.setCurrentIndex(props.currentIndex + 1);
-            audioElement.pause();
-            audioElement.currentTime = 0;
+            console.log('current index is', props.currentIndex)
+            
         } 
     }
 
     const playPrevSong = () =>{
         if (props.currentIndex > 0){
+            audioElement.current.currentTime = 0;
             props.setCurrentIndex(props.currentIndex - 1);
-            audioElement.pause();
-            audioElement.currentTime = 0;
+            audioElement.current.pause();
         } 
     }
 
@@ -73,7 +78,7 @@ const Player = (props)=>{
   return(  
   <div className="audio-player">
     <audio ></audio>
-    <progress className="player-progress-bar" ></progress>
+    <s className="player-s-bar" ></s>
     <h6 className="song-duration">{calculateTime(current_time)} : {calculateTime(duration)}</h6>
 
     <div className="player-controls">
