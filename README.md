@@ -1,6 +1,8 @@
 ## Simple React Audio Player
 This my first project in React with a functional barebones audio player. It to provide practice with React and serve as a proof of concept.
 
+![image](https://user-images.githubusercontent.com/58196525/167564774-af5e159e-116c-4a6a-8d31-473885823581.png)
+
 ## What Does The Program Do?
 Play, fast-forward, rewind, skip forward, and skip backward between songs from a fixed number of songs. Based on the current song, the following information will update:
 - song name
