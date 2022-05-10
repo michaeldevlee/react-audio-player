@@ -23,14 +23,16 @@ React, Node.Js, Javascript, HTML, CSS, Github Pages
 
 ## Tutorials Used
 - [React Basics Tutorial by Mike Dane](https://www.youtube.com/watch?v=ABQLwlE8MUA)
+  - Amazing basics tutorial about React
 - [React Audio Player tutorial #1 by Tyler Potts](https://www.youtube.com/watch?v=3ourkSxbd0Y)
+  - CSS tutorial and tips
 - [React Audio Player tutorial #2 by Tyler Potts](https://www.youtube.com/watch?v=M4TTeSVX3HI)
   - FontAwesome
   - Basic set up of a music player application
   - Slight introduction to useState and useEffect hooks
-- [React Audio Player text tutorial](https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks)
+- [React Audio Player text tutorial Ryan Finni](https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks)
   - Introduced to the useRef hook
-- [Writing a Good README](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+- [Writing a Good README by Hillary Nyakundi](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 
 ## Song and Album Cover Credits
 - *Get Down* by IMLC - https://freemusicarchive.org/music/independent-music-licensing-collective-imlc/new-launch-by-ketsa/get-down/
