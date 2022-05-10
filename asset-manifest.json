@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-audio-player/static/css/main.bd27b29c.css",
-    "main.js": "/react-audio-player/static/js/main.3f6d0d39.js",
+    "main.css": "/react-audio-player/static/css/main.c2656906.css",
+    "main.js": "/react-audio-player/static/js/main.5fad8525.js",
     "static/js/787.dae473da.chunk.js": "/react-audio-player/static/js/787.dae473da.chunk.js",
     "static/media/FilteredSeams.jpg": "/react-audio-player/static/media/FilteredSeams.3e55ff6dc02b120b28a0.jpg",
     "index.html": "/react-audio-player/index.html",
-    "main.bd27b29c.css.map": "/react-audio-player/static/css/main.bd27b29c.css.map",
-    "main.3f6d0d39.js.map": "/react-audio-player/static/js/main.3f6d0d39.js.map",
+    "main.c2656906.css.map": "/react-audio-player/static/css/main.c2656906.css.map",
+    "main.5fad8525.js.map": "/react-audio-player/static/js/main.5fad8525.js.map",
     "787.dae473da.chunk.js.map": "/react-audio-player/static/js/787.dae473da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd27b29c.css",
-    "static/js/main.3f6d0d39.js"
+    "static/css/main.c2656906.css",
+    "static/js/main.5fad8525.js"
   ]
 }
