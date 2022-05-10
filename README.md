@@ -23,18 +23,22 @@ Github Pages
 - Understanding states, props, and how they relate to optimizing my component renders
 
 ## Tutorials Used
-React Basics Tutorial : https://www.youtube.com/watch?v=ABQLwlE8MUA
-React Audio Player tutorial #1 : https://www.youtube.com/watch?v=3ourkSxbd0Y 
-React Audio Player tutorial #2 : https://www.youtube.com/watch?v=M4TTeSVX3HI
-- FontAwesome
-- Basic set up of a music player application
-- Slight introduction to useState and useEffect hooks
-React Audio Player text tutorial : https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks
-- introduced to the useRef hook
+- React Basics Tutorial : https://www.youtube.com/watch?v=ABQLwlE8MUA
+- React Audio Player tutorial #1 : https://www.youtube.com/watch?v=3ourkSxbd0Y 
+- React Audio Player tutorial #2 : https://www.youtube.com/watch?v=M4TTeSVX3HI
+  - FontAwesome
+  - Basic set up of a music player application
+  - Slight introduction to useState and useEffect hooks
+- React Audio Player text tutorial : https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks
+  - Introduced to the useRef hook
 
 Writing a Good README: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
-## Credits
-
+## Song and Album Cover Credits
+- *Get Down* by IMLC - https://freemusicarchive.org/music/independent-music-licensing-collective-imlc/new-launch-by-ketsa/get-down/
+- *Warm Feeling* by AHOAMI - https://tunetank.com/track/3499-warm-feeling
+- *Dreaming of Water* by IMLC- https://freemusicarchive.org/music/independent-music-licensing-collective-imlc/new-launch-by-ketsa/dreaming-of-water/
+- *Once Upon A Time* by Maarten Schellekens - https://freemusicarchive.org/music/maarten-schellekens/orchestral-works/once-upon-a-time/
+- *Whatever* by HoliznaCC0 - https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/whatever-2/
 
 
