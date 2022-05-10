@@ -140,6 +140,16 @@ img{
     font-size: 1.2rem;
 }
 
+.credit-header{
+    margin-top: 60px;
+    font-size: 1.5rem;
+}
+
+.credit-link{
+    margin: 20px;
+    font-size: 1.4rem;
+}
+
 @keyframes animatedBackground {
     from {
       background-position: 0 0;

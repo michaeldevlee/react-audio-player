@@ -4,7 +4,7 @@ import {faPlay, faPause, faForward, faBackward, faStepForward, faStepBackward, f
 
 const Player = (props)=>{
 
-    const {title, src} = props.song;
+    const {title, src, link} = props.song;
     const audioElement = useRef(new Audio(src));
 
     const [duration, setDuration] = useState(0);
@@ -97,8 +97,12 @@ const Player = (props)=>{
         <button className="skip-forwards-button" onClick={playNextSong}>
             <FontAwesomeIcon icon={faStepForward} />
         </button>
-
       </div>
+
+        <h2 className="credit-header">Credits</h2>
+      <text className="credit-link">
+            {link}
+        </text>
 
     </div>
   )
