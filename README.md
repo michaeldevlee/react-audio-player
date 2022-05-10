@@ -11,12 +11,7 @@ Play, fast-forward, rewind, skip forward, and skip backward between songs from a
 - contribution/credit link   
 
 ## Technologies Used
-React
-Node.Js
-Javascript
-HTML
-CSS
-Github Pages
+React, Node.Js, Javascript, HTML, CSS, Github Pages
 
 ## Challenges
 - Learning React was by far the most difficult challenge in all of this. Let alone, I had minimal experience with Javascript as I am more familiar with video game programming in GDscript (python-like language used for game development for the Godot Engine).
@@ -32,7 +27,7 @@ Github Pages
 - React Audio Player text tutorial : https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks
   - Introduced to the useRef hook
 
-Writing a Good README: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+- Writing a Good README: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
 ## Song and Album Cover Credits
 - *Get Down* by IMLC - https://freemusicarchive.org/music/independent-music-licensing-collective-imlc/new-launch-by-ketsa/get-down/
