@@ -18,7 +18,7 @@ Play, fast-forward, rewind, skip forward, and skip backward between songs from a
 React, Node.Js, Javascript, HTML, CSS, Github Pages
 
 ## Challenges
-- Learning React was by far the most difficult challenge in all of this. Let alone, I had minimal experience with Javascript as I am more familiar with video game programming in GDscript (python-like language used for game development for the Godot Engine).
+- Learning React was by far the most difficult challenge in all of this. Let alone, I had minimal experience with Javascript/HTML/CSS as I am more familiar with video game programming in GDscript (python-like language used for game development for the Godot Engine).
 - Understanding states, props, and how they relate to optimizing my component renders
 
 ## Tutorials Used
