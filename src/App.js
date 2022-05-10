@@ -7,19 +7,42 @@ function App() {
 
 const [songs] = useState([
   {
-    "title": "$orries",
-    "artist": "Peachy!",
-    "img_src" : "./Songs_Images/picture-1.png",
-    "src" : "./Songs/$orries.mp3",
-    "link" : "hello"
+    "title": "Get Down",
+    "artist": "IMLC",
+    "img_src" : "./react-audio-player/Songs_Images/Independent.png",
+    "src" : "./react-audio-player/Songs/IMLC-Get-Down.mp3",
+    "link" : "https://freemusicarchive.org/music/independent-music-licensing-collective-imlc/new-launch-by-ketsa/get-down/"
   },
   {
     "title": "Warm Feeling",
     "artist": "AHOAMI",
-    "img_src" : "./Songs_Images/waves.jpg",
-    "src" : "./Songs/warm-feeling_by_ahoami.mp3",
+    "img_src" : "./react-audio-player/Songs_Images/waves.jpg",
+    "src" : "./react-audio-player/Songs/warm-feeling_by_ahoami.mp3",
     "link" : " Music from Tunetank.com AHOAMI - Warm Feeling (Copyright Free Music) Download free: https://tunetank.com/track/3499-warm-feeling"
-  }
+  },
+  {
+    "title": "Dreaming of Water",
+    "artist": "IMLC",
+    "img_src" : "./react-audio-player/Songs_Images/Independent.png",
+    "src" : "./react-audio-player/Songs/IMLC-Dreaming-of-Water.mp3",
+    "link" : " https://freemusicarchive.org/music/independent-music-licensing-collective-imlc/new-launch-by-ketsa/dreaming-of-water/"
+  },
+  {
+    "title": "Once Upon A Time",
+    "artist": "Maarten Schellekens",
+    "img_src" : "./react-audio-player/Songs_Images/Once Upon A Time.png",
+    "src" : "./react-audio-player/Songs/Maarten-Schellekens-Once-Upon-A-Time.mp3",
+    "link" : " https://freemusicarchive.org/music/maarten-schellekens/orchestral-works/once-upon-a-time/"
+  },
+  {
+    "title": "Whatever",
+    "artist": "HoliznaCC0",
+    "img_src" : "./react-audio-player/Songs_Images/Whatever.png",
+    "src" : "./react-audio-player/Songs/HoliznaCC0-Whatever.mp3",
+    "link" : "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/whatever-2/"
+  },
+  
+
   
 ]); 
 
