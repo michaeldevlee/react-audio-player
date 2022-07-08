@@ -1,7 +1,7 @@
 ## Simple React Audio Player
 This my first project in React building a web audio player. It provided an avenue for practice with React and serve as a proof of concept. 
 
-[Check it out here!](https://mikelee53.github.io/react-audio-player/)
+[Check it out here!](https://michaeldevlee.github.io/react-audio-player)
 
 ![image](https://user-images.githubusercontent.com/58196525/167564774-af5e159e-116c-4a6a-8d31-473885823581.png)
 
